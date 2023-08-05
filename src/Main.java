@@ -5,6 +5,10 @@ public class Main {
         // Import Scanner
         Scanner scanner = new Scanner(System.in);
 
-        // Let's code!
+        // Ask user for a month
+        String userMonth = scanner.nextLine();
+
+        // Print test
+        System.out.println(userMonth);
     }
 }
