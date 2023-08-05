@@ -6,6 +6,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Ask user for a month
+        System.out.println("Benvenuto, dimmi il nome di un mese dell'anno e ti dirò il numero di giorni di cui è composto");
         String userMonth = scanner.nextLine().toLowerCase();
 
         // Switch case
