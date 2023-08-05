@@ -6,7 +6,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Ask user for a month
-        String userMonth = scanner.nextLine();
+        String userMonth = scanner.nextLine().toLowerCase();
 
         // Print test
         System.out.println(userMonth);
