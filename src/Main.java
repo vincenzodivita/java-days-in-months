@@ -55,5 +55,7 @@ public class Main {
 
         // Result print
         System.out.println("Il mese di " + userMonth + " ha " + daysNum + " giorni!");
+
+        scanner.close();
     }
 }
